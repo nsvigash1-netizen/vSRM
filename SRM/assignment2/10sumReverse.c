@@ -4,7 +4,8 @@ int main() {
     int num = 0;
     int choice = 0;    
     do {
-        printf("\n\nMENU\n1. Enter Number\n2. Sum of Individual digits\n");
+        printf("\n\nMENU\n1. Enter Number\n");
+        printf("2. Sum of Individual digits\n");
         printf("3. Reverse Integer\n4. Exit\nEnter choice: ");
         scanf("%d", &choice);
         if (choice > 1 && choice < 4 && numInitialised == 0)
