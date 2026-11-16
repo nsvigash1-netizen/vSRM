@@ -18,12 +18,13 @@ void countFrequency(int arr[], int n) {
                     count++;
                 }
             }
-            printf("%d - %d\n", arr[i], count);
+            // 10 is field width
+            printf("%-10d%-10d\n", arr[i], count);
         }
     }
 }
 int main() {
-    printf("Element - Frequency\n");
+    printf("Element Frequency\n");
     int array[5] = {1,2,3,2,3};
     countFrequency(array, 5);
 }
