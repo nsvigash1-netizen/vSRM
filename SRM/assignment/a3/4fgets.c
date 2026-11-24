@@ -5,7 +5,8 @@ int main(void) {
     char filename[256];
     char buffer[BUF_SIZE];
     long lines = 0, chars = 0;
-    int lastEndedWithNewline = 1; // Empty file gives 0 lines
+    // Empty file gives 0 lines
+    int lastEndedWithNewline = 1;
 
     printf("Enter file name: ");
     if (scanf("%255s", filename) != 1) {
