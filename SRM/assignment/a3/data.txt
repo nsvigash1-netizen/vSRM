@@ -1,0 +1,5 @@
+Hello, World!
+This is a sample text file.
+It is used to test fgets() in C.
+
+Line five comes after a blank line.
